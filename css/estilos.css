@@ -2,7 +2,8 @@
 * {
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box; /*Ajustando el ancho y alto a lo declarado*/
+    box-sizing: border-box;
+    /*Ajustando el ancho y alto a lo declarado*/
 }
 
 /*Selector de elemento*/
@@ -37,10 +38,11 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     text-align: center;
+    padding-top: 1rem;
 
 }
 
-nav a:hover{
+nav a:hover {
     color: #006241;
 }
 
@@ -80,11 +82,11 @@ nav a:hover{
 }
 
 /* MAIN - PRIMERA SECTION */
-.section1{
+.section1 {
     background-color: #d4e9e2;
     margin-bottom: 2rem;
     height: 328px;
-    
+
 }
 
 .imgsection1 {
@@ -121,10 +123,6 @@ nav a:hover{
     justify-content: center;
 }
 
-.inicio2_img {
-
-}
-
 .section2_div {
     width: 50%;
     justify-content: center;
@@ -144,6 +142,7 @@ nav a:hover{
     margin-top: 2rem;
     background-color: #f1f8f6;
     height: 400px;
+    margin-bottom: 2rem;
 }
 
 .inicio3_div {
@@ -180,6 +179,7 @@ nav a:hover{
     text-align: center;
 }
 
+
 .inicio3_link {
     text-decoration: none;
     border-radius: 50px;
@@ -191,16 +191,190 @@ nav a:hover{
 /*PIE DE LA PAGINA*/
 .footer {
     display: flex;
-    min-height: 800px;
+    flex-direction: column;
     margin-top: 70px;
+
 }
 
-.footer_div1 {
+.div_footer {
     display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
+    justify-content: space-around;
+    max-width: 72%;
+    margin-left: 4rem;
 }
 
-.footer_div2 {
-    align-items: flex-end;
+.enlacesfooter {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    gap: 1rem;
+    padding-right: 3rem;
+
+}
+
+.datafiscal {
+    width: 20%;
+    padding-left: 14rem;
+}
+
+.enlacef {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 0;
+}
+
+.titulosf {
+    font-size: 20px;
+}
+
+.subrayadooff {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ababab;
+
+}
+
+.enlaces2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.enlacesredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footerfinal {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.derechosr {
+    display: flex;
+    flex-direction: column;
+    text-align: none;
+    list-style: none;
+    align-items: center;
+    color: #ababab;
+
+}
+
+.titulop {
+    background-color: #1e3932;
+    height: 200px;
+    width: 100%;
+}
+
+.titulope {
+    background-color: #1e3932;
+    height: 150px;
+    width: 100%;
+}
+
+.tituloc {
+    color: white;
+    font-size: 45px;
+    padding-top: 4rem;
+    padding-left: 20rem;
+    font-weight: 700;
+}
+
+.tituloes {
+    color: white;
+    font-size: 50px;
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.sectioncafe {
+    display: flex;
+    flex-direction: column;
+    max-width: 51%;
+    justify-content: flex-end;
+    margin-left: 20rem;
+    padding-top: 2rem;
+
+}
+
+.sectionexperiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+}
+
+.fotoexp {
+    width: 50%;
+}
+
+.imagenescafe {
+    width: 700px;
+}
+
+.parrafocafe {
+    font-size: 18px;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+.titulocafe {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.titulo2 {
+    width: 60%;
+    text-align: center;
+    margin-left: 17rem;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    
+}
+.inicio4_parrafo {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 20px;
+    width: 70%;
+    line-height: 1.75;
+    text-align: center;
+    color: black;
+}
+.inicio4_h {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    color: black;
+}
+.inicio4_link {
+    color: black;
+    border: 1px solid;
+    font-weight: 750;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 7px 16px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    justify-content: center;
 }
