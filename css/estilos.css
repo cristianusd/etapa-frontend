@@ -743,14 +743,14 @@ nav a:hover {
     }
 .section3{background-color: f2f0eb;}
     .parrafocafe {
-        width: 260px;
+        width: 100%;
         font-size: 17px;
         padding-bottom: 1rem;
         padding-top: 0;
     }
 
     .imagenescafe {
-        width: 260px;
+        width: 100%;
         padding-bottom: 1rem;
     }
 
