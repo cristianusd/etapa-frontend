@@ -78,7 +78,6 @@ nav a:hover {
     background-color: #d4e9e2;
     margin-bottom: 2rem;
     height: 328px;
-
 }
 
 .imgsection1 {
@@ -246,6 +245,15 @@ nav a:hover {
 
 
 .footerfinal {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.footerfinal2 {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -523,19 +531,244 @@ nav a:hover {
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 600px) {
     .header {
         flex-direction: row;
-        justify-content: end;
-width: auto;
+        justify-content: flex-end;
+        margin-right: 3rem;
+
+
     }
 
     .lista_ul {
-        width: 100%;
+        width: 300px;
         font-size: 10px;
         text-decoration: none;
         flex-direction: column;
+
+
     }
-.main{width: auto;}
+
+    .menu {
+        margin-left: 0;
+    }
+
+    .cafe {
+        margin-left: 0;
+    }
+
+    .experiencia {
+        margin-left: 0;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .section1 {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .imgsection1 {
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        padding-left: 8rem;
+    }
+
+
+    .section2 {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .section2_div1 {
+        width: 100%;
+    }
+
+    .inicio2_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .inicio2_parrafo {
+        font-size: 15px;
+        padding-top: 3rem;
+
+    }
+
+    .section2_div {
+        width: 100%;
+    }
+
+    .inicio2_link {
+        font-size: 14px;
+        margin-bottom: 3rem;
+    }
+
+    .main {
+        width: auto;
+    }
+
+    .section3 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inicio3_div {
+        width: 100%
+    }
+
+    .inicio3_textos {
+        width: 100%
+    }
+
+    .imgsection3 {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .inicio3_h {
+        font-size: 20px;
+    }
+
+    .inicio3_parrafo {
+        font-size: 15px;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .ffinal {
+        width: 100%;
+    }
+
+    .inicio3_link {
+        font-size: 16px;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .footerfinal {
+        padding-left: 0;
+    }
+
+    .footerfinal2 {
+        flex-direction: column;
+    }
+
+    .enlacesredes {
+        align-items: flex-start;
+    }
+
+    .derechosr {
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    .navbar {
+        justify-content: end;
+        padding-right: 5rem;
+    }
+
+    .efooter {
+        width: 100%;
+    }
+
+    .subrayadooff2 {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .tituloc {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .titulo2 {
+        width: 260px;
+        margin-left: 2rem;
+        font-size: 25px;
+    }
+
+    .sectionexperiencia {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .inicio3_img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+        padding-bottom: 2rem;
+        background-color: #f2f0eb;
+    }
+
+    .inicio3_h {
+        margin-left: 1rem;
+    }
+
+    .inicio4_parrafo {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .section2_div {
+        padding-bottom: 2rem;
+        background-color: #f2f0eb;
+    }
+
+    .tituloes {
+        font-size: 35px;
+        padding-top: 2rem;
+    }
+
+    .inicio3_textos {
+        background-color: #f2f0eb;
+        padding-bottom: 1rem;;
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+.section3{background-color: f2f0eb;}
+    .parrafocafe {
+        width: 260px;
+        font-size: 17px;
+        padding-bottom: 1rem;
+        padding-top: 0;
+    }
+
+    .imagenescafe {
+        width: 260px;
+        padding-bottom: 1rem;
+    }
+
+    .tituloc {
+        width: 100%;
+        font-size: 35px;
+        padding-left: 2rem;
+    }
+
+    .sectioncafe {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        max-width: 100%;
+    }
+
+    .titulocafe {
+        width: 280px;
+    }
+
 
 }
